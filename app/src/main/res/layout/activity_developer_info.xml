@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/versionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:freezesText="true"
+        android:gravity="center"
+        android:text="Version: 1.0" />
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:freezesText="true"
+        android:gravity="center"
+        android:text="By: Parashar Joshi" />
+    <TextView
+        android:id="@+id/devEmail"
+        android:autoLink="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:freezesText="true"
+        android:gravity="center"
+        android:text="parasjos@123.com" />
+
+    <TextView
+        android:id="@+id/PrevActivity"
+        android:autoLink="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:freezesText="true"
+        android:gravity="center"
+        android:layout_marginTop="50sp"
+        android:text="@string/prevActivity" />
+    <TextView
+        android:id="@+id/prevData"
+        android:autoLink="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:freezesText="true"
+        android:gravity="center"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:id="@+id/backToMain"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:freezesText="true"
+        android:gravity="center"
+        android:onClick="backToMain"
+        android:text="back" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BasicCounter</string>
+    <string name="devInfoLabel">Developer Info.</string>
+    <string name="startText">0</string>
+    <string name="incrButtonLabel">+</string>
+    <string name="decrButtonLabel">-</string>
+    <string name="prevActivity">Count value: </string>
+</resources>
